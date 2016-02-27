@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="SwitchBall"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MenuTabs" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MenuTabs" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="MenuTabs">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="tab2"/>
+      </AccessibilityProperties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="MainMenuPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Main Menu">
+                <Property name="tabTitle" type="java.lang.String" value="Main Menu"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="QuickMatchButton" alignment="1" pref="355" max="32767" attributes="0"/>
+                          <Component id="PlayerMatchButton" alignment="0" pref="355" max="32767" attributes="0"/>
+                          <Component id="TeamBuilderButton" alignment="0" pref="355" max="32767" attributes="0"/>
+                          <Component id="ControlsButton" alignment="0" pref="355" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="QuickMatchButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="PlayerMatchButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="TeamBuilderButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="ControlsButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="231" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="QuickMatchButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quick Match"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="QuickMatchButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="PlayerMatchButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Player Match"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PlayerMatchButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="TeamBuilderButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Team Builder"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TeamBuilderButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="ControlsButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Controls"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ControlsButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="PlayerMatchPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Player Match">
+                <Property name="tabTitle" type="java.lang.String" value="Player Match"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="PlayerMatchStartButton" alignment="1" pref="355" max="32767" attributes="0"/>
+                          <Component id="PlayerMatchMainMenu" alignment="0" pref="355" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="PlayerMatchTeam2ControlLabel" alignment="1" pref="127" max="32767" attributes="0"/>
+                                          <Component id="PlayerMatchTeam2Label" alignment="0" pref="127" max="32767" attributes="1"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="PlayerMatchTeam1Label" alignment="0" max="32767" attributes="1"/>
+                                              <Component id="PlayerMatchMapLabel" alignment="0" pref="127" max="32767" attributes="1"/>
+                                              <Component id="PlayerMatchTeam1ControlLabel" alignment="1" max="32767" attributes="1"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="PlayerMatchDiffLabel" pref="127" max="32767" attributes="1"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="PlayerMatchTimeLabel" pref="127" max="32767" attributes="1"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="PlayerMatchTimeValue" alignment="1" pref="210" max="32767" attributes="0"/>
+                                  <Component id="PlayerMatchDiffList" alignment="1" pref="210" max="32767" attributes="1"/>
+                                  <Component id="PlayerMatchMapList" alignment="0" pref="210" max="32767" attributes="0"/>
+                                  <Component id="PlayerMatchTeam1ControlList" alignment="1" pref="210" max="32767" attributes="0"/>
+                                  <Component id="PlayerMatchTeam2ControlList" pref="210" max="32767" attributes="0"/>
+                                  <Component id="PlayerMatchTeam2List" alignment="0" pref="210" max="32767" attributes="1"/>
+                                  <Component id="PlayerMatchTeam1List" alignment="1" pref="210" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PlayerMatchMapLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PlayerMatchMapList" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PlayerMatchTeam1Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PlayerMatchTeam1List" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PlayerMatchTeam1ControlLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PlayerMatchTeam1ControlList" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PlayerMatchTeam2List" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PlayerMatchTeam2Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PlayerMatchTeam2ControlLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PlayerMatchTeam2ControlList" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PlayerMatchDiffLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PlayerMatchDiffList" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PlayerMatchTimeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PlayerMatchTimeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="PlayerMatchStartButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="PlayerMatchMainMenu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="96" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="PlayerMatchMapLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Map:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="PlayerMatchMapList">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value="Desert"/>
+                    <StringItem index="1" value="Grass"/>
+                    <StringItem index="2" value="Cloud"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="PlayerMatchTeam1Label">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Team 1:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="PlayerMatchTeam1List">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="PlayerMatchTeam2Label">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Team 2:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="PlayerMatchTeam2List">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="PlayerMatchDiffLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="AI Difficulty:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="PlayerMatchDiffList">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value="Easy"/>
+                    <StringItem index="1" value="Medium"/>
+                    <StringItem index="2" value="Hard"/>
+                  </StringArray>
+                </Property>
+                <Property name="selectedIndex" type="int" value="1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="PlayerMatchStartButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Start Game"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PlayerMatchStartButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="PlayerMatchMainMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Main Menu"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PlayerMatchMainMenuActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="PlayerMatchTimeLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Time Limit:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="PlayerMatchTimeValue">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="30"/>
+                    <StringItem index="1" value="40"/>
+                    <StringItem index="2" value="50"/>
+                    <StringItem index="3" value="60"/>
+                  </StringArray>
+                </Property>
+                <Property name="selectedIndex" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="PlayerMatchTeam1ControlLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Control Type:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="PlayerMatchTeam1ControlList">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="1">
+                    <StringItem index="0" value="Keyboard"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="PlayerMatchTeam1ControlListPopupMenuWillBecomeInvisible"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="PlayerMatchTeam2ControlLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Control Type:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="PlayerMatchTeam2ControlList">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="1">
+                    <StringItem index="0" value="Keyboard"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="PlayerMatchTeam2ControlListPopupMenuWillBecomeInvisible"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="TeamBuilderPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Team Builder">
+                <Property name="tabTitle" type="java.lang.String" value="Team Builder"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="TeamBuilderNameLabel" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="TeamBuilderNewTeamButton" alignment="0" pref="91" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="TeamBuilderTeamList" pref="254" max="32767" attributes="0"/>
+                                  <Component id="TeamBuilderNewTeamText" alignment="0" pref="254" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="TeamBuilderLeftPlayerName" pref="120" max="32767" attributes="1"/>
+                                  <Component id="TeamBuilderLeftPlayerImage" alignment="0" pref="120" max="32767" attributes="1"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="TeamBuilderLeftPlayerInterRangeLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderLeftPlayerSpeedLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderLeftPlayerPowerLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderLeftPlayerTackleRangeLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderLeftPlayerInterStrengthLabel" alignment="0" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="TeamBuilderLeftPlayerInterStrengthValue" alignment="0" pref="70" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderLeftPlayerInterRangeValue" alignment="0" pref="70" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderLeftPlayerTackleRangeValue" alignment="0" pref="70" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderLeftPlayerPowerValue" alignment="1" pref="70" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderLeftPlayerSpeedValue" alignment="1" pref="70" max="32767" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="TeamBuilderCenterPlayerName" alignment="0" pref="114" max="32767" attributes="1"/>
+                                  <Component id="TeamBuilderCenterPlayerImage" alignment="0" pref="114" max="32767" attributes="1"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="TeamBuilderCenterPlayerInterRangeLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderCenterPlayerSpeedLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderCenterPlayerPowerLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderCenterPlayerTackleRangeLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderCenterPlayerInterStrengthLabel" alignment="0" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="TeamBuilderCenterPlayerInterStrengthValue" alignment="0" pref="64" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderCenterPlayerInterRangeValue" alignment="0" pref="64" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderCenterPlayerTackleRangeValue" alignment="0" pref="64" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderCenterPlayerPowerValue" alignment="0" pref="64" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderCenterPlayerSpeedValue" alignment="1" pref="64" max="32767" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="TeamBuilderRightPlayerImage" alignment="0" pref="109" max="32767" attributes="1"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="TeamBuilderRightPlayerInterRangeLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderRightPlayerSpeedLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderRightPlayerPowerLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderRightPlayerTackleRangeLabel" alignment="0" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderRightPlayerInterStrengthLabel" alignment="0" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="TeamBuilderRightPlayerInterStrengthValue" alignment="0" pref="59" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderRightPlayerInterRangeValue" alignment="0" pref="59" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderRightPlayerTackleRangeValue" alignment="0" pref="59" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderRightPlayerPowerValue" alignment="0" pref="59" max="32767" attributes="1"/>
+                                          <Component id="TeamBuilderRightPlayerSpeedValue" alignment="1" pref="59" max="32767" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="TeamBuilderRightPlayerName" alignment="1" pref="109" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="TeamBuilderMainMenu" min="-2" pref="168" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="TeamBuilderSaveButton" pref="177" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TeamBuilderNewTeamButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderNewTeamText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TeamBuilderNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderTeamList" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="TeamBuilderRightPlayerImage" max="32767" attributes="1"/>
+                          <Component id="TeamBuilderCenterPlayerImage" alignment="0" max="32767" attributes="1"/>
+                          <Component id="TeamBuilderLeftPlayerImage" alignment="0" pref="90" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TeamBuilderLeftPlayerSpeedLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderLeftPlayerSpeedValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderCenterPlayerSpeedLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderCenterPlayerSpeedValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderRightPlayerSpeedLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderRightPlayerSpeedValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TeamBuilderLeftPlayerPowerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderLeftPlayerPowerValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderCenterPlayerPowerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderCenterPlayerPowerValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderRightPlayerPowerLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderRightPlayerPowerValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TeamBuilderLeftPlayerTackleRangeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderLeftPlayerTackleRangeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderCenterPlayerTackleRangeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderCenterPlayerTackleRangeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderRightPlayerTackleRangeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderRightPlayerTackleRangeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TeamBuilderLeftPlayerInterRangeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderLeftPlayerInterRangeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderCenterPlayerInterRangeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderCenterPlayerInterRangeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderRightPlayerInterRangeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderRightPlayerInterRangeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TeamBuilderLeftPlayerInterStrengthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderLeftPlayerInterStrengthValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderCenterPlayerInterStrengthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderCenterPlayerInterStrengthValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderRightPlayerInterStrengthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderRightPlayerInterStrengthValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TeamBuilderLeftPlayerName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderCenterPlayerName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderRightPlayerName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TeamBuilderMainMenu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TeamBuilderSaveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="43" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="TeamBuilderNameLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Team Name:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="TeamBuilderTeamList">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="TeamBuilderTeamListPopupMenuWillBecomeInvisible"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderLeftPlayerImage">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Characters/BeetleProfile.png"/>
+                </Property>
+                <Property name="horizontalTextPosition" type="int" value="2"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderCenterPlayerImage">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Characters/SaraProfile.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderRightPlayerImage">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Characters/WolfProfile.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="TeamBuilderMainMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Main Menu"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TeamBuilderMainMenuActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="TeamBuilderSaveButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Save"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TeamBuilderSaveButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="TeamBuilderLeftPlayerName">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="TeamBuilderLeftPlayerNamePopupMenuWillBecomeInvisible"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="TeamBuilderCenterPlayerName">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="TeamBuilderCenterPlayerNamePopupMenuWillBecomeInvisible"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="TeamBuilderRightPlayerName">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="TeamBuilderRightPlayerNamePopupMenuWillBecomeInvisible"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="TeamBuilderNewTeamButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="New Team"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TeamBuilderNewTeamButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="TeamBuilderNewTeamText">
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderLeftPlayerSpeedLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Speed:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderLeftPlayerPowerLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Power:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderLeftPlayerTackleRangeLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Tkl Rng:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderLeftPlayerInterRangeLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Intr Rng:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderLeftPlayerInterStrengthLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Intr Str:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderLeftPlayerSpeedValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderLeftPlayerPowerValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderLeftPlayerTackleRangeValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderLeftPlayerInterRangeValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderLeftPlayerInterStrengthValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderCenterPlayerSpeedLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Speed:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderCenterPlayerPowerLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Power:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderCenterPlayerTackleRangeLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Tkl Rng:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderCenterPlayerInterRangeLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Intr Rng:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderCenterPlayerInterStrengthLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Intr Str:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderCenterPlayerSpeedValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderCenterPlayerPowerValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderCenterPlayerTackleRangeValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderCenterPlayerInterRangeValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderCenterPlayerInterStrengthValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderRightPlayerSpeedLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Speed:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderRightPlayerPowerLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Power:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderRightPlayerTackleRangeLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Tkl Rng:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderRightPlayerInterRangeLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Intr Rng:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderRightPlayerInterStrengthLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Intr Str:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderRightPlayerSpeedValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderRightPlayerPowerValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderRightPlayerTackleRangeValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderRightPlayerInterRangeValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="TeamBuilderRightPlayerInterStrengthValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="ControlsPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Controls">
+                <Property name="tabTitle" type="java.lang.String" value="Controls"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ControlsPlayer2Label" alignment="0" pref="355" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="ControlsPlayer1PassLabel" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="ControlsPlayer1LeftLabel" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="ControlsPlayer1RightLabel" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="ControlsPlayer1RightValue" max="32767" attributes="1"/>
+                                          <Component id="ControlsPlayer1LeftValue" alignment="0" pref="87" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="ControlsPlayer1UpLabel" max="32767" attributes="1"/>
+                                          <Component id="ControlsPlayer1DownLabel" alignment="1" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="ControlsPlayer1DownValue" pref="120" max="32767" attributes="1"/>
+                                          <Component id="ControlsPlayer1UpValue" alignment="0" pref="120" max="32767" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="ControlsPlayer1PassValue" pref="287" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="ControlsPlayer1Label" alignment="0" pref="355" max="32767" attributes="0"/>
+                          <Component id="ControlsPlayer2Type" alignment="0" pref="355" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="ControlsPlayer2PassLabel" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="ControlsPlayer2LeftLabel" alignment="1" max="32767" attributes="1"/>
+                                  <Component id="ControlsPlayer2RightLabel" alignment="1" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="ControlsPlayer2RightValue" max="32767" attributes="1"/>
+                                          <Component id="ControlsPlayer2LeftValue" alignment="0" pref="86" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="ControlsPlayer2UpLabel" max="32767" attributes="1"/>
+                                          <Component id="ControlsPlayer2DownLabel" alignment="1" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="ControlsPlayer2DownValue" pref="121" max="32767" attributes="0"/>
+                                          <Component id="ControlsPlayer2UpValue" alignment="0" pref="121" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="ControlsPlayer2PassValue" pref="287" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="ControlsExitLabel" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="ControlsPauseLabel" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="ControlsExitValue" pref="282" max="32767" attributes="0"/>
+                                  <Component id="ControlsPauseValue" alignment="0" pref="282" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="ControlsMainMenu" alignment="1" pref="355" max="32767" attributes="0"/>
+                          <Component id="ControlsPlayer1Type" alignment="0" pref="355" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ControlsPlayer1Label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="ControlsPlayer1Type" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ControlsPlayer1LeftLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer1UpLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer1LeftValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer1UpValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ControlsPlayer1RightLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer1DownLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer1RightValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer1DownValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ControlsPlayer1PassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer1PassValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="ControlsPlayer2Label" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="ControlsPlayer2Type" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ControlsPlayer2LeftLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer2UpLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer2LeftValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer2UpValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ControlsPlayer2RightLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer2DownLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer2RightValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer2DownValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ControlsPlayer2PassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPlayer2PassValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ControlsPauseValue" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsPauseLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ControlsExitLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ControlsExitValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="ControlsMainMenu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="40" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer1Label">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Player 1:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="ControlsPlayer1Type">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="1">
+                    <StringItem index="0" value="Keyboard"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="ControlsPlayer1TypePopupMenuWillBecomeInvisible"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer1LeftLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Move Left:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer1RightLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Move Right:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer1UpLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Move Up:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer1DownLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Move Down:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer1PassLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Pass/Shoot:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer1LeftValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Left Key"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer1RightValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Right Key"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer1UpValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Up Key"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer1DownValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Down Key"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer1PassValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter Key"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer2Label">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Player 2:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="ControlsPlayer2Type">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="1">
+                    <StringItem index="0" value="Keyboard"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="popupMenuWillBecomeInvisible" listener="javax.swing.event.PopupMenuListener" parameters="javax.swing.event.PopupMenuEvent" handler="ControlsPlayer2TypePopupMenuWillBecomeInvisible"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer2LeftLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Move Left:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer2UpLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Move Up:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer2RightLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Move Right:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer2DownLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Move Down:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer2LeftValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="A Key"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer2RightValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="D Key"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer2UpValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="W Key"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer2DownValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="S Key"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer2PassLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Pass/Shoot:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPlayer2PassValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Space Key"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="ControlsMainMenu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Main Menu"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ControlsMainMenuActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPauseLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Pause Game:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsPauseValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="P Key"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsExitLabel">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="4"/>
+                <Property name="text" type="java.lang.String" value="Exit Game:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ControlsExitValue">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Escape Key"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

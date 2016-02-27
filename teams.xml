@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teams>
+    <team name="Fangs">
+        <player name="Beetle"/>
+        <player name="RedImp"/>
+        <player name="Beetle"/>
+    </team>
+    <team name="Animals">
+        <player name="Wolf"/>
+        <player name="Beetle"/>
+        <player name="Wolf"/>
+    </team>
+    <team name="Swift">
+        <player name="BlueImp"/>
+        <player name="GreenImp"/>
+        <player name="BlueImp"/>
+    </team>
+</teams>
